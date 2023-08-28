@@ -1803,7 +1803,8 @@ body:not(.p-compare) .main-nav.is-dark+.current-page .current-page__nav-link {
 }
 
 .templatesHero__image {
-    width: auto;
+    /*width: auto;  replaced with: width: 100%; */
+    width: 100%;
     /*max-width: 1106px; my custom param*/
     height: 100%
 }
